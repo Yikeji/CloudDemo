@@ -11,7 +11,7 @@ public class Director {
      */
 
     public void construct(){
-        ConcreteBuilder builder = new ConcreteBuilder();
+        ConcreteBuilder1 builder = new ConcreteBuilder1();
         builder.buildPart1();
         builder.buildPart2();
         builder.retrieveResult();

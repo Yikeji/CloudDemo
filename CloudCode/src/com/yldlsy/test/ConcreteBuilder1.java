@@ -3,9 +3,9 @@ package com.yldlsy.test;
 /**
  * 具体建造者Builder类的源码
  */
-public class ConcreteBuilder extends Builder {
+public class ConcreteBuilder1 extends Builder {
 
-    private Product product = new Product();
+    private Product1 product = new Product1();
     /**
      * 产品零件建造方法
      */
